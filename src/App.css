@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+	background: #141414;
+	color: #ffffff;
+}
+.movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+.grid{
+  display : flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  overflow-x:auto;
+  /* align-content: space-between;  */
+}
+
+.form{
+  display : flex;
+  
+  justify-content: space-around;
+  /* align-content: space-between;  */
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+
+}
+img {
+pointer-events: none;
+}
+.movie_card{
+padding: 0 !important;
+width: 14rem !important;
+/* margin:14px;  */
+border-radius: 10px;
+box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie_card img{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+height: 20rem;
+}
+
+.card-title{
+width: 80%;
+height: 4rem;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
