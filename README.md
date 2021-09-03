@@ -1,3 +1,4 @@
+<div class="checkpoint-instructions"><div class="title"><span>Instructions</span></div><div class="checkpoint-content"><ul><li>Create&nbsp;the following components:<ul><li>MovieCard</li><li>MovieList</li><li>Filter ( title, rate)</li></ul></li><li>Every movie should have the following attributes: title, description, posterURL, rating</li><li>The user should be:<ul><li>Able to add a new movie.</li><li>Filter the movies with title/rating.</li></ul></li></ul></div></div>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
